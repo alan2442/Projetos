@@ -1,0 +1,1 @@
+alert("Jailson acabou de alugar um apartamento em minha menta, logo tenho que entregar as chave")

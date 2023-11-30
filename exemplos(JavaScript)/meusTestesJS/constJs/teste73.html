@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste 73</title>
+</head>
+<body>
+
+
+    <h2>Variáveis const JavaScript têm escopo de bloco</h2>
+
+    <p id="demo"></p>
+
+    <script>
+
+        const x = 10;
+        //Aqui x é 10
+
+        {
+            const x = 2
+            //Aqui x é 2
+        }
+
+        //Aqui x é 10
+        document.getElementById("demo").innerHTML = "x é: " + x;
+
+    </script>
+   
+    
+</body>
+</html>

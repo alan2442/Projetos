@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 7 Home</title>
+
+    <!-- font awesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="header"> <!-- Começo Header -->
+
+        <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> MegaCursos </a> <!-- Logotipo -->
+
+        <nav class="navbar"> <!-- Começo Navbar -->
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="index.html">Inicio</a>
+            <a href="about.html">Sobre Nós</a>
+            <a href="courses.html">Cursos</a>
+            <a href="contact.html">Contato</a>
+        </nav> <!-- Fim Navbar -->
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+    </header> <!-- Fim Header -->
+
+
+    <div class="account-form"> <!-- Começo formulário-->
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">Logar</span>
+            <span class="btn register-btn">Cadastrar</span>
+        </div>
+
+        <form action="" class="login-form active"> <!-- Começo Formulário de Login -->
+            <h3>Logar</h3>
+            <input type="email" placeholder="Digite seu email:" class="box">
+            <input type="password" placeholder="Digite sua senha:" class="box">
+            <div class="flex">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">Lembrar Senhar</label>
+                <a href="#">Esqueci a Senha</a>
+            </div>
+            <input type="submit" value="Entrar" class="btn">
+
+        </form> <!-- Fim Formulário de Login -->
+
+
+
+        <form action="" class="register-form"> <!-- Começo Formulário de Cadastro -->
+            <h3>Cadastrar</h3>
+            <input type="email" placeholder="Digite seu email:" class="box">
+            <input type="password" placeholder="Digite sua senha:" class="box">
+            <input type="password" placeholder="Confirme sua senha:" class="box">
+            <input type="submit" value="Entrar" class="btn">
+
+        </form> <!-- Fim Formulário de Cadastro -->
+
+    </div> <!-- Fim formulário-->
+
+
+    <section class="home"> <!-- Começo Sessão Home -->
+
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide slide" style="background: url(img/design.png) no-repeat;">
+                    <div class="content">
+                        <h3>Os melhores cursos você vai encontrar aqui!</h3>
+                        <p>Nós temos os melhores preços e opções de cursos para você escolher o que mais combina com voçê e o que cabe no seu bolso.</p>
+
+                        <a href="#cursos" class="btn">Saber Mais</a>
+                    </div>
+                </section>
+
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+
+    </section> <!-- Fim Sessão Home -->
+
+
+
+    <section class="subjects"> <!-- Começo Sessão subjects -->
+
+        <h1 class="heading">Nossos Assuntos Populares</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img/design.png" alt="">
+                <h3>Design Gráfico</h3>
+                <p>12 modules</p>
+            </div>
+
+            <div class="box">
+                <img src="img/mathematics.png" alt="">
+                <h3>Matemática</h3>
+                <p>12 modules</p>
+            </div>
+
+            <div class="box">
+                <img src="img/Professor.png" alt="">
+                <h3>Marketing</h3>
+                <p>12 modules</p>
+            </div>
+
+            <div class="box">
+                <img src="img/Programming.png" alt="">
+                <h3>Informática para Negócios</h3>
+                <p>12 modules</p>
+            </div>
+
+            <div class="box">
+                <img src="img/science.png" alt="">
+                <h3>Ciências</h3>
+                <p>12 modules</p>
+            </div>
+
+            <div class="box">
+                <img src="img/engineers.png" alt="">
+                <h3>Engenharia</h3>
+                <p>12 modules</p>
+            </div>
+
+        </div>
+
+    </section> <!-- Fim Sessão subjects -->
+
+
+    <section class="swiper home-courses" id="cursos"> <!-- Começo sessão home-courses -->
+
+        <h1 class="heading"> Nossos Melhores Cursos </h1>
+
+        <div class="swiper home-courses-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/webDevelopment.png" alt="">
+                        <h3>Desenvolvimento Web</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Desenvolvedor Web</h3>
+                        <p>O curso de Desenvolvimento Web é uma graduação tecnológica, que foi desenvolvida com o objetivo de capacitar profissionais para atuar no mercado de trabalho com alto domínio das tecnologias web, especificamente falando, a graduação irá preparar o indivíduo para trabalhar na criação das páginas para a web, aplicativos e outros. A faculdade de Desenvolvimento Web é responsável por formar profissionais aptos a atender, planejar, construir, testar, manter e atualizar sistemas da internet</p>
+                    </div>
+                    <a href="" class="btn">Saber Mais</a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/workingRemote.png" alt="">
+                        <h3>Administração</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Administração</h3>
+                        <p>O curso de administração é uma graduação que prepara os estudantes para atuarem como gestores em empresas públicas ou privadas. O currículo inclui disciplinas como contabilidade, finanças, marketing, gestão de pessoas, empreendedorismo, estratégia e tomada de decisões.</p>
+                    </div>
+                    <a href="" class="btn">Saber Mais</a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/pairProgramming.png" alt="">
+                        <h3>Desenvolvedor Java</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Desenvolvedor Java</h3>
+                        <p>O curso de Desenvolvedor Java capacita os alunos para desenvolverem sistemas e aplicações, determinando interface gráfica, critérios ergonômicos de navegação, montagem da estrutura de banco de dados e codificação de programas.</p>
+                    </div>
+                    <a href="" class="btn">Saber Mais</a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/engineers.png" alt="">
+                        <h3>Engenheiro</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Engenheiro</h3>
+                        <p>A Engenharia é um curso que envolve muitas disciplinas de exatas, como matemática, física e química e é uma área bastante abrangente segmentada em diversos ramos como por exemplo a engenharia civil, de telecomunicações, de sistema, de produção e mecânica.</p>
+                    </div>
+                    <a href="" class="btn">Saber Mais</a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/Professor.png" alt="">
+                        <h3>Marketing</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Marketing</h3>
+                        <p>O curso de Marketing busca preparar o aluno para entender e atender ao consumidor. Por isso, quem escolhe essa graduação estuda o comportamento dos consumidores, técnicas de negociação, estratégias de venda, posicionamento de marca, competitividade e muito mais.</p>
+                    </div>
+                    <a href="" class="btn">Saber Mais</a>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="img/Programming.png" alt="">
+                        <h3>Informática para Negócios</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Informática para Negócios</h3>
+                        <p>O Tecnólogo em Informática para Negócios é o profissional capaz de buscar as melhores oportunidades de negócio, analisar tendências e encontrar novos caminhos para a empresa. O principal diferencial desse profissional é criar estratégias para viabilizar o alinhamento da Tecnologia da Informação à Gestão de Negócios.</p>
+                    </div>
+                    <a href="" class="btn">Saber Mais</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section> <!-- Fim sessão home-courses -->
+
+
+
+
+
+
+
+
+
+    <section class="footer"> <!-- Começo Sessão Footer -->
+
+        <div class="box-container">
+
+            <div class="box espaco">
+                <h3> <i class="fas fa-lightbulb"></i> MegaCursos</h3>
+                <p>
+                   Sigam nós nas redes sociais para voçê ficar por dentro de todas as novidades </p>
+                <div class="share">
+                    <a href="" class="fab fa-facebook-f"></a>
+                    <a href="" class="fab fa-twitter"></a>
+                    <a href="" class="fab fa-instagram"></a>
+                    <a href="" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box espaco" style="margin-right: 130px">
+                <h3>Links Rápidos</h3>
+                <a href="index.html" class="link">Inicio</a>
+                <a href="about.html" class="link">Sobre Nós</a>
+                <a href="courses.html" class="link">Cursos</a>
+                <a href="contact.html" class="link">Contato</a>
+            </div>
+
+            <div class="box espaco">
+                <h3>Links Úteis</h3>
+                <a href="" class="link">Centro de Ajuda</a>
+                <a href="" class="link">Perguntas</a>
+                <a href="" class="link">Enviar Comentários</a>
+                <a href="" class="link">política privada</a>
+                <a href="" class="link">Termos de Uso</a>
+            </div>
+
+            <div class="box">
+                <h3>Notícias</h3>
+                <p>inscreva-se para receber as últimas atualizações</p>
+                <form action="">
+                    <input type="email" name="" placeholder="Digite seu email" class="email">
+                    <input type="submit" value="Inscrever" class="btn">
+                </form>
+            </div>
+
+        </div>
+        <br></br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br></br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <br></br>
+        
+
+        <div class="credit"> Criado por <span>Mega Cursos</span> | todos os seus direitos reservados</div>
+
+
+    </section> <!-- Fim Sessão Footer -->
+
+
+
+
+
+
+
+
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- JS Externo -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

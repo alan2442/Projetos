@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste 65</title>
+</head>
+<body>
+
+
+    <h2>JavaScript permite</h2>
+
+    <p>É permitido redeclarar uma variável com <b>let</b>, em outro escopo, ou em outro bloco:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let x = 2;
+        //Permitido
+
+        {
+            let x = 3;
+            //Permitido
+        }
+
+        {
+            let x = 4; 
+            //Permitido
+        }
+
+        document.getElementById("demo").innerHTML = x;
+
+    </script>
+   
+    
+</body>
+</html>

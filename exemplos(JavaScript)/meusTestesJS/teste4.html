@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste 4</title>
+</head>
+<body>
+    
+    <h2>O que o Professor pode fazer ?</h2>
+
+    <p>JavaScript pode alterar valores de atributos HTML.</p>
+
+    <p>Neste caso, o JavaScript altera o valor do atributo src (fonte) de uma imagem.</p>
+
+    <button type="button" onclick="document.getElementById('minhaImagem').src='img/luzAcesa.jpg'">
+        Acender a Luz
+    </button>
+
+    <img src="img/luzApagada.jpg" style="width: 100px" alt="" id="minhaImagem">
+
+    <button type="button" onclick="document.getElementById('minhaImagem').src='img/luzApagada.jpg'">
+        Apagar a Luz
+    </button>
+
+</body>
+</html>

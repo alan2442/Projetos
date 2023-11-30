@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste 62</title>
+</head>
+<body>
+
+
+    <h2>Redeclarando uma variável usando var</h2>
+
+    <p id="demo"></p>
+
+    <script>
+        var x = 10;
+        // Aqui x é 10
+
+        {
+            var x = 2;
+            //Aqui x é 2
+        }
+
+        //Aqui x é 2 
+        document.getElementById("demo").innerHTML = x;
+
+
+    </script>
+   
+    
+</body>
+</html>

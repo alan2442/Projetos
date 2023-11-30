@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste 69</title>
+</head>
+<body>
+
+
+    <h2>JavaScript const</h2>
+
+    <p>Declarar um array constante NÃO torna os elementos imutáveis:</p>
+
+    <p id="demo"></p>
+
+    <script>
+
+        //Criando um array:
+        const cars = ["Saab", "Volvo", "BMW"];
+
+        //Alter um element:
+        cars[0] = "Toyota";
+
+        //Adcicionando um elemento:
+        cars.push("Audi");
+
+        //exibe o Array:
+        document.getElementById("demo").innerHTML = cars;
+
+    </script>
+   
+    
+</body>
+</html>
