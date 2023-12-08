@@ -1,4 +1,4 @@
-package somente_a_dor_coletiva_gera_uniao;
+package DorColetiva;
 
 //2)Imprima os números ímpares de 1 a 10, usando continue para pular os números pares. 
 

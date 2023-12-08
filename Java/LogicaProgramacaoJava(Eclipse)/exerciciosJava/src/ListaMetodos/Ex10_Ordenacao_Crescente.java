@@ -1,4 +1,4 @@
-package lista_de_Exercicios_com_Metodos_na_Linguagem_de_Programacao_Java;
+package ListaMetodos;
 
 // Implemente um método chamado ordenarCrescente que recebe um array de inteiros como parâmetro e o ordena em ordem crescente. 
 

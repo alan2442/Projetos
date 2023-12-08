@@ -1,4 +1,4 @@
-package lista_de_Exercicios_com_Metodos_na_Linguagem_de_Programacao_Java;
+package ListaMetodos;
 
 // Crie um método chamado contarVogais que recebe uma string como parâmetro e retorna o número de vogais nela. 
 

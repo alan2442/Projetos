@@ -1,4 +1,4 @@
-package lista_de_Exercicios_com_Metodos_na_Linguagem_de_Programacao_Java;
+package ListaMetodos;
 
 import java.util.Scanner;
 

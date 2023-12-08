@@ -1,4 +1,4 @@
-package somente_a_dor_coletiva_gera_uniao;
+package DorColetiva;
 
 import java.util.Scanner;
 

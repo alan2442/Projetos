@@ -1,4 +1,4 @@
-package lista_de_Exercicios_com_Metodos_na_Linguagem_de_Programacao_Java;
+package ListaMetodos;
 
 // Implemente um método chamado encontrarMaiorElemento que recebe uma matriz de inteiros como parâmetro e retorna o maior elemento presente nela.
 

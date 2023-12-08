@@ -1,4 +1,4 @@
-package lista_de_Exercicios_com_Metodos_na_Linguagem_de_Programacao_Java;
+package ListaMetodos;
 
 // Crie um método chamado converterCelsiusParaFahrenheit que recebe uma temperatura em graus Celsius como parâmetro e retorna a temperatura equivalente em Fahrenheit. 
 

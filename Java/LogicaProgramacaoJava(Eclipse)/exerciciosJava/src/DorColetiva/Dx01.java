@@ -1,4 +1,4 @@
-package somente_a_dor_coletiva_gera_uniao;
+package DorColetiva;
 
 //1)Imprima os números de 1 a 10, mas pare a execução do loop quando chegar a 5. 
 
